@@ -1,7 +1,8 @@
 {
-  "compilerOptions": {
-    "paths": {
-      "@/*": ["./src/*"]
+      "compilerOptions": {
+        "baseUrl": "./src", // Or "src" if your code is in a src folder
+        "paths": {
+          "@/*": ["./src/*"] // Example mapping @ to src folder
+        }
+      }
     }
-  }
-}
