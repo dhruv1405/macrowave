@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 import { connectDB } from "../../utils/db";
-import MealLog from "../../model/macros.model";
+import MealLog from "@/app/model/macros.model";
 
 export async function POST(req) {
   try {
